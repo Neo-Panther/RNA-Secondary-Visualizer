@@ -3,12 +3,82 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VISUAL</title>
+<title>RNA Secondary Visualizer</title>
+<link href='assets/style.css' rel='stylesheet'>
 </head>
 <body>
-  <div>
-    <h1>RNA Secondary Structure Visualization</h1>
-    <>
+  <h1>RNA Secondary Structure Visualization</h1>
+  <div class="content">
+    <h2>About</h2>
+    <h2>Documentaion</h2>
+    <hr/>
+    <p>Documentation for the code can be found <a href="documentation/html/index.html">here</a></p>
+    <hr/>
+    <h2>Results</h2>
+    <hr/>
+    <p>Visualizaion of the algorithm to find the secondary structure of rna as documented in 'Algorithm Design by Eva Tardos and Jon Kleinberg' is successful. The resulting structure is saved as a svg, which can be resized and rotated without loss of precision. This was done in C language with the support from Varna Tool.</p>
+    <h4>Comparison between our implementation's results and structures at <a href="https://rnacentral.org/">rnacentral</a></h4>
+    <p>First is our Visualizaion and next is the real structure. Differences have been highlighted in the following text. RNA Sequence identification code is also mentioned in the headings</p>
+    <h5>URS00006569A0: GGCGAAGCCCGCCUGUGCGGGCUA</h5>
+    <img src="assets/images/viz1.svg" title="GGCGAAGCCCGCCUGUGCGGGCUA"/><span style="width: 20px;"></span><img src="assets/images/real1.svg"/>
+    <p>Structures match perfectly.</p>
+    <h5>URS000080E21C: CUUGCUGAGGUGCACACAGCAAG</h5>
+    <img src="assets/images/viz2.svg" title="GGCGAAGCCCGCCUGUGCGGGCUA"/><span style="width: 20px;"></span><img src="assets/images/real2.svg"/>
+    <p>The real structure contains 1 pair less than the optimal solution (between 11(U) and 16(A)).</p>
+    <h5>URS0000A76371: AGAUCUGAGCCUGGGAGCUCUCU</h5>
+    <img src="assets/images/viz3.svg" title="GGCGAAGCCCGCCUGUGCGGGCUA"/><span style="width: 20px;"></span><img src="assets/images/real3.svg"/>
+    <p>Structures match perfectly.</p>
+    <h5>URS00002AB26F: AAACCGUUACCAUUACUGAGUUU</h5>
+    <img src="assets/images/viz4.svg" title="GGCGAAGCCCGCCUGUGCGGGCUA"/><span style="width: 20px;"></span><img src="assets/images/real4.svg"/>
+    <p>The real structure is quite different from the optimal one, multiple possible pairings are missing.</p>
+    <h5>URS000064F01F: CUUUCAAUCCUCUUCUUGAGAUUC</h5>
+    <img src="assets/images/viz5.svg" title="GGCGAAGCCCGCCUGUGCGGGCUA"/><span style="width: 20px;"><img src="assets/images/real5.svg"/>
+    <p>The real structure is quite close to the one visualized, both are optimal. Choice between different optimal structures cannot be found in code.</p>
+    <hr/>
+    <h2>Issues in Coding</h2>
+    <hr/>
+    <p>Some of the main issues that arose while coding the project were as follows:</p>
+    <ol>
+      <li><strong>Choice Between Optimal Solutions</strong>: Multiple Solutions(Pairings) exist to reach the optimal solution. Choosing among them remains is remains a design choice. We made the choice to pick the pair with bases furthest apart among similar choices. This choice is consistent on most real life secondary structures from <a href="https://rnacentral.org/">rnacentral</a></li>
+      <li><strong>Minimizing Time & Space Complexity</strong>: issue is reached while minimizing space and time complexity. This lead to a trade-off at most points as minimizing one lead to increase in other. This was solved by applying base case checks and pre-processing (like trimming spaces), then reducing sizes of arrays accordingly.</li>
+      <li><strong>Choice of Visualizaion Method & Tool</strong>: There are multiple formats to show the secondary structure of RNA, like linked graphs, circular graps etc. We went with the one that felt the most natural, namely the classical structure. But, this is also the one most tricky to visualize. Similarly among the multiple visualization tools, we chose VARNA, as it was the one with the simplest command line interface and best results.</li>
+    </ol>
+    <hr/>
+    <h2>Algorithm Analysis</h2>
+    <hr/>
+    <p>A high-level overview of the dynamic programming algorithm for RNA folding:</p>
+    <ol>
+      <li><strong>Initialization</strong>: Set up a matrix to store the optimal folding score for each subsequence of the RNA sequence. (O(n<sup>2</sup>) time)</li>
+      <li><strong>Relation</strong>: Using a recurrence relation determine the optimal score for a given subsequence based on smaller, previously solved subsequences.(O(n) time)</li>
+      <li><strong>Matrix Filling</strong>: Fill the matrix using the recurrence relation, starting from the smallest subsequences and building up to the entire sequence.(O(n<sup>2</sup>) time)</li>
+      <li><strong>Traceback</strong>: While filling the matrix or after that, trace back from the each cell to reconstruct the optimal folding structure.(O(n<sup>2</sup>) time)</li>
+    </ol>
+    <p><strong>Recurrence Relation</strong>: OPT(i, j) = max{OPT(i, j-1), max<sub>i&le;t&le;j</sub>(1+OPT(i, t-1)+OPT(t+1, j-1))}.(O(n) time)</p>
+    <p><strong>Total Time Complexity</strong>: (Step 1) + (Step 2)*((Step 3) + (Step 4)) = O(n<sup>3</sup>) time.</p>
+    <hr/>
+    <h2>Timing Analysis</h2>
+    <hr/>
+    <p>For timing analysis, check included excel sheet.</p>
+    <hr/>
+    <h2>References</h2>
+    <hr/>
+    <ol>
+      <li>Algorithm Design by Eva Tardos and Jon Kleinberg</li>
+      <li>Structures from: <a href="https://rnacentral.org/">RNA Central</a></li>
+      <li>Visualization tool support: <a href="https://varna.lisn.upsaclay.fr/">VARNA</a></li>
+      <li>Documentation tool:<a href="https://www.doxygen.nl/">Doxygen</a></li>
+    </ol>
+    <hr/>
+    <h2>Team Members</h2>
+    <hr/>
+    <p><strong>Team Code: C2</strong></p> 
+    <h3>Name</h3><span style="width: 10px;"><h3>ID</h3>
+    <ol>
+      <li>  Aryan Gupta           2021A7PS0162H</li>
+      <li> Subal Tankwal          2021A7PS1407H</li>
+      <li> Kshitiz Agarwal        2021A7PS1818H</li>
+      <li> Soumya Choudhury        2021A7PS1674H</li>
+    </ol>
   </div>
 </body>
 </html>

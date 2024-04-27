@@ -1,0 +1,91 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	width="118.959"
+	height="241.637"
+	style="font-size: 3.070588px; font-weight: bold; font-family: Helvetica; " >
+<g><style type="text/css" >
+<!-- create color definitions -->
+<![CDATA[
+text.red {fill: rgb(255, 0, 255); }
+text.green {fill: rgb(0, 255, 0); }
+text.blue {fill: rgb(0, 0, 255); }
+text.black {fill: rgb(0, 0, 0); }
+text.gray {fill: rgb(204, 204, 204); }
+text.brown {fill: rgb(211.65, 104.55, 30.6); }
+text {fill: rgb(0, 0, 0); text-anchor: middle; alignment-baseline: middle; }
+circle.red {stroke: rgb(255, 0, 255); fill: none; }
+circle.green {stroke: rgb(0, 255, 0); fill: none; }
+circle.blue {stroke: rgb(0, 0, 255); fill: none; }
+circle.black {stroke: rgb(0, 0, 0); fill: none; }
+circle.gray {stroke: rgb(204, 204, 204); fill: none; }
+circle.brown {stroke: rgb(211.65, 104.55, 30.6); fill: none; }
+circle {stroke: rgb(0, 0, 0); }
+line.red {stroke: rgb(255, 0, 255); stroke-width: 0.383824; }
+line.green {stroke: rgb(0, 255, 0); stroke-width: 0.383824; }
+line.blue {stroke: rgb(0, 0, 255); stroke-width: 0.383824; }
+line.black {stroke: rgb(0, 0, 0); stroke-width: 0.383824; }
+line.gray {stroke: rgb(204, 204, 204); stroke-width: 0.383824; }
+line.brown {stroke: rgb(211.65, 104.55, 30.6); stroke-width: 0.383824; }
+line {stroke: rgb(0, 0, 0); }
+text.numbering-label {fill: rgb(204, 204, 204);}
+line.numbering-line {stroke: rgb(204, 204, 204); stroke-width: 0.191912;}
+line.predicted {stroke: rgb(0, 0, 0); stroke-dasharray: 2}
+text.background {fill: rgb(255, 255, 255);
+.template {visibility:hidden}
+]]>
+</style></g>
+<g><title>0 (position.label in template: 0.5')</title><text x="49.7448" y="199.186" class="green" >5'</text></g>
+<g><title>1 (position.label in template: 17.A)</title><text x="50" y="191.637" class="black" >A</text></g>
+<g><title>2 (inserted)</title><text x="50.2552" y="184.089" class="red" >A</text></g>
+<g><title>3 (inserted)</title><text x="50.5105" y="176.54" class="red" >A</text></g>
+<g><title>4 (inserted)</title><text x="50.7657" y="168.991" class="red" >C</text></g>
+<g><title>5 (inserted)</title><text x="51.0209" y="161.443" class="red" >C</text></g>
+<g><title>6 (inserted)</title><text x="51.2762" y="153.894" class="red" >G</text></g>
+<g><title>7 (inserted)</title><text x="51.5314" y="146.345" class="red" >U</text></g>
+<g><title>8 (inserted)</title><text x="51.7866" y="138.797" class="red" >U</text></g>
+<g><title>9 (inserted)</title><text x="52.0419" y="131.248" class="red" >A</text></g>
+<g><title>10 (inserted)</title><text x="52.2971" y="123.699" class="red" >C</text></g>
+<g><title>10 (inserted)</title><text x="45.3922" y="123.466" class="numbering-label sequential" >10</text></g>
+<g><line x1="50.4558" y1="123.637" x2="47.2346" y2="123.528" class="numbering-line sequential" /></g>
+<g><title>11 (inserted)</title><text x="52.5523" y="116.151" class="red" >C</text></g>
+<g><title>12 (inserted)</title><text x="52.8075" y="108.602" class="red" >A</text></g>
+<g><title>13 (inserted)</title><text x="53.0628" y="101.053" class="red" >U</text></g>
+<g><title>14 (inserted)</title><text x="53.318" y="93.5046" class="red" >U</text></g>
+<g><title>15 (inserted)</title><text x="53.5732" y="85.956" class="red" >A</text></g>
+<g><title>16 (inserted)</title><text x="53.8285" y="78.4073" class="red" >C</text></g>
+<g><title>17 (inserted)</title><text x="54.0837" y="70.8587" class="red" >U</text></g>
+<g><title>18 (position.label in template: 34.G)</title><text x="54.3389" y="63.31" class="green" >G</text></g>
+<g><line x1="56.386" y1="63.0029" x2="64.9519" y2="63.0029" class="black" /></g>
+<g><title>19 (position.label in template: 35.A)</title><text x="52.5789" y="56.07" class="black" >A</text></g>
+<g><title>20 (position.label in template: 36.G)</title><text x="56.6789" y="50" class="black" >G</text></g>
+<g><title>20 (inserted)</title><text x="53.5334" y="43.8488" class="numbering-label sequential" >20</text></g>
+<g><line x1="55.8401" y1="48.3597" x2="54.3185" y2="45.3841" class="numbering-line sequential" /></g>
+<g><title>21 (position.label in template: 37.U)</title><text x="64.4489" y="50" class="black" >U</text></g>
+<g><title>22 (position.label in template: 38.U)</title><text x="68.9589" y="56.07" class="black" >U</text></g>
+<g><title>23 (position.label in template: 39.Y)</title><text x="66.9989" y="63.31" class="green" >U</text></g>
+<g><title>24 (position.label in template: 73.3')</title><text x="73.5198" y="59.4987" class="green" >3'</text></g>
+<g><line x1="49.8139" y1="196.833" x2="49.9308" y2="193.376" class="gray" /></g>
+<g><line x1="50.0692" y1="189.284" x2="50.1861" y2="185.827" class="gray" /></g>
+<g><line x1="50.3244" y1="181.736" x2="50.4413" y2="178.279" class="gray" /></g>
+<g><line x1="50.5796" y1="174.187" x2="50.6965" y2="170.73" class="gray" /></g>
+<g><line x1="50.8349" y1="166.638" x2="50.9518" y2="163.181" class="gray" /></g>
+<g><line x1="51.0901" y1="159.09" x2="51.207" y2="155.633" class="gray" /></g>
+<g><line x1="51.3453" y1="151.541" x2="51.4622" y2="148.084" class="gray" /></g>
+<g><line x1="51.6006" y1="143.992" x2="51.7174" y2="140.535" class="gray" /></g>
+<g><line x1="51.8558" y1="136.444" x2="51.9727" y2="132.987" class="gray" /></g>
+<g><line x1="52.111" y1="128.895" x2="52.2279" y2="125.438" class="gray" /></g>
+<g><line x1="52.3663" y1="121.346" x2="52.4831" y2="117.889" class="gray" /></g>
+<g><line x1="52.6215" y1="113.798" x2="52.7384" y2="110.341" class="gray" /></g>
+<g><line x1="52.8767" y1="106.249" x2="52.9936" y2="102.792" class="gray" /></g>
+<g><line x1="53.132" y1="98.7003" x2="53.2488" y2="95.2435" class="gray" /></g>
+<g><line x1="53.3872" y1="91.1517" x2="53.5041" y2="87.6948" class="gray" /></g>
+<g><line x1="53.6424" y1="83.603" x2="53.7593" y2="80.1461" class="gray" /></g>
+<g><line x1="53.8976" y1="76.0544" x2="54.0145" y2="72.5975" class="gray" /></g>
+<g><line x1="54.1529" y1="68.5057" x2="54.2698" y2="65.0488" class="gray" /></g>
+<g><line x1="53.8554" y1="61.0138" x2="53.0625" y2="57.7521" class="gray" /></g>
+<g><line x1="53.7247" y1="54.0666" x2="55.5331" y2="51.3893" class="gray" /></g>
+<g><line x1="58.726" y1="49.6929" x2="62.4019" y2="49.6929" class="gray" /></g>
+<g><line x1="65.6698" y1="51.3361" x2="67.7381" y2="54.1198" class="gray" /></g>
+<g><line x1="68.424" y1="57.7389" x2="67.5339" y2="61.027" class="gray" /></g>
+<g><line x1="68.7663" y1="61.97" x2="71.7525" y2="60.2246" class="gray" /></g>
+</svg>

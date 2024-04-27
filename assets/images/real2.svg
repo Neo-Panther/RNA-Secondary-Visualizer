@@ -1,0 +1,97 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	width="128.15"
+	height="172.36"
+	style="font-size: 3.069545px; font-weight: bold; font-family: Helvetica; " >
+<g><style type="text/css" >
+<!-- create color definitions -->
+<![CDATA[
+text.red {fill: rgb(255, 0, 255); }
+text.green {fill: rgb(0, 255, 0); }
+text.blue {fill: rgb(0, 0, 255); }
+text.black {fill: rgb(0, 0, 0); }
+text.gray {fill: rgb(204, 204, 204); }
+text.brown {fill: rgb(211.65, 104.55, 30.6); }
+text {fill: rgb(0, 0, 0); text-anchor: middle; alignment-baseline: middle; }
+circle.red {stroke: rgb(255, 0, 255); fill: none; }
+circle.green {stroke: rgb(0, 255, 0); fill: none; }
+circle.blue {stroke: rgb(0, 0, 255); fill: none; }
+circle.black {stroke: rgb(0, 0, 0); fill: none; }
+circle.gray {stroke: rgb(204, 204, 204); fill: none; }
+circle.brown {stroke: rgb(211.65, 104.55, 30.6); fill: none; }
+circle {stroke: rgb(0, 0, 0); }
+line.red {stroke: rgb(255, 0, 255); stroke-width: 0.383693; }
+line.green {stroke: rgb(0, 255, 0); stroke-width: 0.383693; }
+line.blue {stroke: rgb(0, 0, 255); stroke-width: 0.383693; }
+line.black {stroke: rgb(0, 0, 0); stroke-width: 0.383693; }
+line.gray {stroke: rgb(204, 204, 204); stroke-width: 0.383693; }
+line.brown {stroke: rgb(211.65, 104.55, 30.6); stroke-width: 0.383693; }
+line {stroke: rgb(0, 0, 0); }
+text.numbering-label {fill: rgb(204, 204, 204);}
+line.numbering-line {stroke: rgb(204, 204, 204); stroke-width: 0.191847;}
+line.predicted {stroke: rgb(0, 0, 0); stroke-dasharray: 2}
+text.background {fill: rgb(255, 255, 255);
+.template {visibility:hidden}
+]]>
+</style></g>
+<g><title>0 (position.label in template: 0.5')</title><text x="50.85" y="122.36" class="green" >5'</text></g>
+<g><title>1 (position.label in template: 9.C)</title><text x="57.85" y="122.36" class="black" >C</text></g>
+<g><line x1="59.8964" y1="122.053" x2="67.8336" y2="122.053" class="black" /></g>
+<g><title>2 (position.label in template: 10.U)</title><text x="57.85" y="114.8" class="black" >U</text></g>
+<g><line x1="59.8964" y1="114.493" x2="68.2536" y2="114.493" class="black" /></g>
+<g><title>3 (position.label in template: 11.U)</title><text x="57.85" y="107.24" class="black" >U</text></g>
+<g><line x1="59.8964" y1="106.933" x2="68.2536" y2="106.933" class="black" /></g>
+<g><title>4 (position.label in template: 12.G)</title><text x="57.64" y="99.68" class="black" >G</text></g>
+<g><line x1="59.6864" y1="99.373" x2="68.0436" y2="99.373" class="black" /></g>
+<g><title>5 (position.label in template: 13.C)</title><text x="57.85" y="92.12" class="black" >C</text></g>
+<g><line x1="59.8964" y1="91.813" x2="67.8336" y2="91.813" class="black" /></g>
+<g><title>6 (position.label in template: 14.U)</title><text x="57.85" y="84.56" class="green" >U</text></g>
+<g><line x1="59.8964" y1="84.253" x2="68.0436" y2="84.253" class="black" /></g>
+<g><title>7 (position.label in template: 15.G)</title><text x="57.64" y="77" class="black" >G</text></g>
+<g><line x1="59.6864" y1="76.693" x2="68.0436" y2="76.693" class="black" /></g>
+<g><title>8 (position.label in template: 16.N)</title><text x="52.29" y="72.25" class="green" >A</text></g>
+<g><title>9 (position.label in template: 17.A)</title><text x="50" y="64.86" class="green" >G</text></g>
+<g><title>10 (position.label in template: 18.G)</title><text x="51.25" y="57.49" class="black" >G</text></g>
+<g><title>10 (inserted)</title><text x="45.1643" y="54.2244" class="numbering-label sequential" >10</text></g>
+<g><line x1="49.6272" y1="56.6192" x2="47.0061" y2="55.2127" class="numbering-line sequential" /></g>
+<g><title>11 (position.label in template: 19.Y)</title><text x="56.89" y="52.02" class="green" >U</text></g>
+<g><title>12 (position.label in template: 20.G)</title><text x="63.76" y="50" class="black" >G</text></g>
+<g><title>13 (position.label in template: 21.C)</title><text x="71.26" y="52.02" class="black" >C</text></g>
+<g><title>14 (position.label in template: 22.R)</title><text x="76.48" y="57.49" class="green" >A</text></g>
+<g><title>15 (position.label in template: 23.C)</title><text x="78.15" y="64.86" class="black" >C</text></g>
+<g><title>16 (position.label in template: 24.N)</title><text x="75.95" y="72.25" class="green" >A</text></g>
+<g><title>17 (position.label in template: 25.C)</title><text x="70.09" y="77" class="black" >C</text></g>
+<g><title>18 (position.label in template: 26.R)</title><text x="70.09" y="84.56" class="green" >A</text></g>
+<g><title>19 (position.label in template: 27.G)</title><text x="69.88" y="92.12" class="black" >G</text></g>
+<g><title>20 (position.label in template: 28.C)</title><text x="70.09" y="99.68" class="black" >C</text></g>
+<g><title>20 (inserted)</title><text x="76.9938" y="99.4882" class="numbering-label sequential" >20</text></g>
+<g><line x1="71.931" y1="99.6289" x2="75.1521" y2="99.5394" class="numbering-line sequential" /></g>
+<g><title>21 (position.label in template: 29.A)</title><text x="70.3" y="107.24" class="black" >A</text></g>
+<g><title>22 (position.label in template: 30.A)</title><text x="70.3" y="114.8" class="black" >A</text></g>
+<g><title>23 (position.label in template: 31.G)</title><text x="69.88" y="122.36" class="black" >G</text></g>
+<g><title>24 (position.label in template: 41.3')</title><text x="76.88" y="122.36" class="green" >3'</text></g>
+<g><line x1="52.8964" y1="122.053" x2="55.8036" y2="122.053" class="gray" /></g>
+<g><line x1="57.85" y1="120.007" x2="57.85" y2="116.539" class="gray" /></g>
+<g><line x1="57.85" y1="112.447" x2="57.85" y2="108.979" class="gray" /></g>
+<g><line x1="57.7932" y1="104.887" x2="57.6968" y2="101.419" class="gray" /></g>
+<g><line x1="57.6968" y1="97.3275" x2="57.7932" y2="93.8586" class="gray" /></g>
+<g><line x1="57.85" y1="89.7667" x2="57.85" y2="86.2994" class="gray" /></g>
+<g><line x1="57.7932" y1="82.2075" x2="57.6968" y2="78.7386" class="gray" /></g>
+<g><line x1="56.1097" y1="75.3344" x2="53.8203" y2="73.3017" class="gray" /></g>
+<g><line x1="51.6843" y1="69.9884" x2="50.6057" y2="66.5077" class="gray" /></g>
+<g><line x1="50.3422" y1="62.5355" x2="50.9078" y2="59.2006" class="gray" /></g>
+<g><line x1="52.719" y1="55.7584" x2="55.421" y2="53.1377" class="gray" /></g>
+<g><line x1="58.8533" y1="51.1358" x2="61.7967" y2="50.2703" class="gray" /></g>
+<g><line x1="65.736" y1="50.2252" x2="69.284" y2="51.1809" class="gray" /></g>
+<g><line x1="72.6728" y1="53.1935" x2="75.0672" y2="55.7026" class="gray" /></g>
+<g><line x1="76.9322" y1="59.1788" x2="77.6978" y2="62.5573" class="gray" /></g>
+<g><line x1="77.5661" y1="66.5143" x2="76.5339" y2="69.9817" class="gray" /></g>
+<g><line x1="74.3603" y1="73.2316" x2="71.6797" y2="75.4045" class="gray" /></g>
+<g><line x1="70.09" y1="78.7394" x2="70.09" y2="82.2067" class="gray" /></g>
+<g><line x1="70.0332" y1="86.2986" x2="69.9368" y2="89.7675" class="gray" /></g>
+<g><line x1="69.9368" y1="93.8586" x2="70.0332" y2="97.3275" class="gray" /></g>
+<g><line x1="70.1468" y1="101.419" x2="70.2432" y2="104.887" class="gray" /></g>
+<g><line x1="70.3" y1="108.979" x2="70.3" y2="112.447" class="gray" /></g>
+<g><line x1="70.1865" y1="116.536" x2="69.9935" y2="120.01" class="gray" /></g>
+<g><line x1="71.9264" y1="122.053" x2="74.8336" y2="122.053" class="gray" /></g>
+</svg>
