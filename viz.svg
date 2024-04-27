@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="100%" height="100%" version="1.1"
+xmlns="http://www.w3.org/2000/svg">
+<line x1="19.077481754395308" y1="38.9786533797903" x2="18.99674356154543" y2="14.999971657134353" stroke="rgb(35%, 35%, 35%)" stroke-width="1.0" />
+<line x1="23.97990824588601" y1="10.000000000000028" x2="47.95872589422345" y2="10.0" stroke="rgb(35%, 35%, 35%)" stroke-width="1.0" />
+<line x1="52.94189057856403" y1="14.999971657134324" x2="52.86115238571415" y2="38.9786533797903" stroke="rgb(35%, 35%, 35%)" stroke-width="1.0" />
+<circle cx="19.09431707005473" cy="43.978625036924626" r="5.0" stroke="none" stroke-width="1.0" fill="rgb(94%, 94%, 94%)"/>
+<circle cx="19.09431707005473" cy="43.978625036924626" r="5.0" stroke="rgb(35%, 35%, 35%)" stroke-width="1.0" fill="none"/>
+<text x="19.09431707005473" y="46.978625036924626" text-anchor="middle" font-family="Verdana" font-size="7.5" fill="rgb(0%, 0%, 0%)" >A</text>
+<circle cx="18.97990824588601" cy="10.000000000000028" r="5.0" stroke="none" stroke-width="1.0" fill="rgb(94%, 94%, 94%)"/>
+<circle cx="18.97990824588601" cy="10.000000000000028" r="5.0" stroke="rgb(35%, 35%, 35%)" stroke-width="1.0" fill="none"/>
+<text x="18.97990824588601" y="13.000000000000028" text-anchor="middle" font-family="Verdana" font-size="7.5" fill="rgb(0%, 0%, 0%)" >A</text>
+<circle cx="52.95872589422345" cy="10.0" r="5.0" stroke="none" stroke-width="1.0" fill="rgb(94%, 94%, 94%)"/>
+<circle cx="52.95872589422345" cy="10.0" r="5.0" stroke="rgb(35%, 35%, 35%)" stroke-width="1.0" fill="none"/>
+<text x="52.95872589422345" y="13.0" text-anchor="middle" font-family="Verdana" font-size="7.5" fill="rgb(0%, 0%, 0%)" >A</text>
+<circle cx="52.84431707005473" cy="43.978625036924626" r="5.0" stroke="none" stroke-width="1.0" fill="rgb(94%, 94%, 94%)"/>
+<circle cx="52.84431707005473" cy="43.978625036924626" r="5.0" stroke="rgb(35%, 35%, 35%)" stroke-width="1.0" fill="none"/>
+<text x="52.84431707005473" y="46.978625036924626" text-anchor="middle" font-family="Verdana" font-size="7.5" fill="rgb(0%, 0%, 0%)" >A</text>
+<line x1="13.808948168784204" y1="49.29979742442367" x2="10.285368901270521" y2="52.84724568275638" stroke="rgb(25%, 25%, 25%)" stroke-width="1.0" />
+<text x="5.0" y="61.168418070255456" text-anchor="middle" font-family="Verdana" font-size="7.5" fill="rgb(25%, 25%, 25%)" >1</text>
+<line x1="58.129685971325245" y1="49.29979742442367" x2="61.65326523883894" y2="52.84724568275638" stroke="rgb(25%, 25%, 25%)" stroke-width="1.0" />
+<text x="66.93863414010946" y="61.168418070255456" text-anchor="middle" font-family="Verdana" font-size="7.5" fill="rgb(25%, 25%, 25%)" >4</text>
+</svg>
