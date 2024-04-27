@@ -1,10 +1,7 @@
 #include <stdio.h>
-#include <iostream>
 #include <string.h>
 #include <stdlib.h>
 #include <math.h>
-#include <fstream>
-using namespace std;
 /**Tests
  * ACCGGUAGU = 2
  * CCCCCGAAAAAU = 2
@@ -92,7 +89,7 @@ int main(int argc, char* argv[]){
     m = OPT[0][n-6];
     printf("::Pairs matched::\n");
     for(int i=0;i<m;i++){
-      cout<<i+1<<". "<<OPTa[0][n-6][i][0]<<" "<<OPTa[0][n-6][i][1]<<endl;
+      printf("%d. %d - %d\n", i+1, OPTa[0][n-6][i][0], OPTa[0][n-6][i][1]);
       if(OPTa[0][n-6][i][0] > OPTa[0][n-6][i][1]){
         out[OPTa[0][n-6][i][0]-1] = ')';
         out[OPTa[0][n-6][i][1]-1] = '(';
