@@ -22,7 +22,7 @@
  * CUUGCUGAGGUGCACACAGCAAG = ours 8, theirs 7: they miss pair between 11(U) and 16(A) (URS000080E21C)
  * AGAUCUGAGCCUGGGAGCUCUCU = 7 - Perfect Match (URS0000A76371)
  * AAACCGUUACCAUUACUGAGUUU = ours 8, theirs 1: they miss multiple possible pairings (URS00002AB26F)
- * CUUUCAAUCCUCUUCUUGAGAUUC = 7 - Different pairs: same bases (URS000064F01F)
+ * GCCCAUCGGGGCCGCGGAUACCUGCU = 7 - Different pairs: same bases (URS000064F01F)
  * 
 */
 
@@ -129,9 +129,9 @@ int main(int argc, char* argv[]){
     return 0;
   }
   // For printing of ouput in correct order
-  LARGE_INTEGER frequency; /**< Store ticks per second*/
-  LARGE_INTEGER t1, t2;  /**< Stores the number of ticks*/
-  double elapsed_time; /**< Stores the net elapsed time*/
+  LARGE_INTEGER frequency; /* Store ticks per second*/
+  LARGE_INTEGER t1, t2;  /* Stores the number of ticks*/
+  double elapsed_time; /* Stores the net elapsed time*/
 
   // get ticks per second
   QueryPerformanceFrequency(&frequency);
@@ -139,15 +139,15 @@ int main(int argc, char* argv[]){
   QueryPerformanceCounter(&t1);
 
   setbuf(stdout, NULL);
-  char *rna = argv[1]; /**< The input RNA sequence.*/
-  int n; /**< Stores length of the input RNA sequence.*/
-  int m; /**< Stores the number of pairs in the output.*/
+  char *rna = argv[1]; /* The input RNA sequence.*/
+  int n; /* Stores length of the input RNA sequence.*/
+  int m; /* Stores the number of pairs in the output.*/
 
   // Preprocessing input
   lrtrim(rna);
   n = strlen(rna);
 
-  char* out = (char*)calloc(n+1, sizeof(char)); /**< Stores the output for Varna visualization*/
+  char* out = (char*)calloc(n+1, sizeof(char)); /* Stores the output for Varna visualization*/
 
   // Initializing out array
   for(int i = 0; i < n; i++){
@@ -157,10 +157,10 @@ int main(int argc, char* argv[]){
 
   // Checking base condition
   if(n > 5){
-    int** to_clear = (int**)calloc(n*n, sizeof(int*)); /**< Stores pointers of base pairs to be freed*/
-    int to_clear_i = 0; /**< Index of the next entry in to_clear array*/
-    int**** OPTa = (int****)calloc(n-5, sizeof(int***)); /**< Dynamic Programming Array, stores the pairs maximizing the maximum number of pairs found till now*/
-    int** OPT = (int**)calloc(n-5, sizeof(int*)); /**<Dynamic Programming Array, stores maximum number of pairs found till now*/
+    int** to_clear = (int**)calloc(n*n, sizeof(int*)); /* Stores pointers of base pairs to be freed*/
+    int to_clear_i = 0; /* Index of the next entry in to_clear array*/
+    int**** OPTa = (int****)calloc(n-5, sizeof(int***)); /* Dynamic Programming Array, stores the pairs maximizing the maximum number of pairs found till now*/
+    int** OPT = (int**)calloc(n-5, sizeof(int*)); /*Dynamic Programming Array, stores maximum number of pairs found till now*/
     
     // Initializing OPT and OPTa
     for(int i = 0; i < n-5; i++){
@@ -200,9 +200,9 @@ int main(int argc, char* argv[]){
   }
 
   // compile file to svg
-  char command[1000]; /**< Stores the command to run the Varna tool*/
+  char command[1000]; /* Stores the command to run the Varna tool*/
   sprintf(command, "java -cp assets/bin/VARNAv3-93.jar fr.orsay.lri.varna.applications.VARNAcmd -sequenceDBN %s -structureDBN %s -o viz.svg -algorithm naview", rna, out);
-  int result = system(command); /**< Stores the result of running the command*/
+  int result = system(command); /* Stores the result of running the command*/
   printf("Vizualization saved in the output file\n");
 
   // free output array

@@ -8,6 +8,7 @@
 </head>
 <body>
   <h1>RNA Secondary Structure Visualization</h1>
+  <hr/>
   <div class="content">
     <h2>About</h2>
     <h2>Documentaion</h2>
@@ -27,7 +28,7 @@
     <p>The real structure contains 1 pair less than the optimal solution (between 11(U) and 16(A)).</p>
     <h5>URS0000A76371: AGAUCUGAGCCUGGGAGCUCUCU</h5>
     <img src="assets/images/viz3.svg" title="GGCGAAGCCCGCCUGUGCGGGCUA"/><span style="width: 20px;"></span><img src="assets/images/real3.svg"/>
-    <p>Structures match perfectly.</p>
+    <p>The real structure is quite close to the one visualized, both are optimal. Choice between different optimal structures cannot be found in code. Only difference is the use of 11(C) instad of 10(C) for one pairing, which is a design choice in the program.</p>
     <h5>URS00002AB26F: AAACCGUUACCAUUACUGAGUUU</h5>
     <img src="assets/images/viz4.svg" title="GGCGAAGCCCGCCUGUGCGGGCUA"/><span style="width: 20px;"></span><img src="assets/images/real4.svg"/>
     <p>The real structure is quite different from the optimal one, multiple possible pairings are missing.</p>
@@ -58,7 +59,8 @@
     <hr/>
     <h2>Timing Analysis</h2>
     <hr/>
-    <p>For timing analysis, check included excel sheet.</p>
+    <p>For timing analysis values, check included excel sheet. Resulting graphs are as follows:</p>
+    <img src="assets/images/tvsn.jpg" title="time vs length of input"><img src="assets/images/tvsm.jpg" title="time vs number of pairs">
     <hr/>
     <h2>References</h2>
     <hr/>
@@ -72,7 +74,6 @@
     <h2>Team Members</h2>
     <hr/>
     <p><strong>Team Code: C2</strong></p> 
-    <h3>Name</h3><span style="width: 10px;"><h3>ID</h3>
     <ol>
       <li>  Aryan Gupta           2021A7PS0162H</li>
       <li> Subal Tankwal          2021A7PS1407H</li>
