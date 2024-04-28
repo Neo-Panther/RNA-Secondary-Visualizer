@@ -8,6 +8,7 @@
   display: grid;
 }
 img {
+  background-color: azure;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
@@ -18,8 +19,8 @@ img {
 }
 body {
   /* overflow: hidden; */
-  background-color: #739d00;
-  color: #000000;
+  background-color: #1c1c1c;
+  color: #e5e5e5;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
